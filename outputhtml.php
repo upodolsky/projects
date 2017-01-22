@@ -1,10 +1,10 @@
 <?php
-$hostname = "127.0.0.1";
+$hostname = "localhost";
 $username = "root";
-$password = "44101616";
+$password = "pass";
 $databaseName = "user_info";
 $connect = mysqli_connect($hostname, $username, $password, $databaseName);
-$query = "SELECT * FROM `users";
+$query = "SELECT * FROM users";
 $result1 = mysqli_query($connect, $query);
 ?>
 
