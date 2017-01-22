@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Forum</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <?php include_once 'inc/count.php' ?>
+</head
+<body>
+  <form method="post" action="addmail.php">
+    <label for="username">user name:</label>
+    <input type="text" id="username" name="username" /><br />
+    <label for="email">email</label>
+    <input type="text" id="email" name="email" /><br />
+    <textarea id="other" name="other"></textarea><br />
+    <input type="submit" value="Submit" name="submit" />
+    <input type="hidden"  src="/ip.php" frameborder="0" />
+  </form>
+</body>
+</html>
